@@ -50,9 +50,9 @@ android {
     signingConfigs {
         release {
             storeFile file("C:/Users/Danit/OneDrive/Documentos/proyectos android/Undertale Android/undertale.jks")
-            storePassword "3213346452"
-            keyAlias "key0"
-            keyPassword "3213346452"
+            storePassword "Your pasword"
+            keyAlias "your alias uwu"
+            keyPassword "password"
         }
     }
     compileOptions {
