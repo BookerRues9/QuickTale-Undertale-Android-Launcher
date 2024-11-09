@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pultec.tobyfoxundertale"  android:versionCode="3224506" android:versionName="Play Store Version" android:installLocation="auto" xmlns:tools="http://schemas.android.com/tools"
+    android:allowBackup="false"
+    >
+
+  <!-- This is the androidmanifest.xml used as the basis for building game .apk's from Studio -->
+  <!-- uses here -->
+  <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+  <!-- <uses-feature android:glEsVersion="0x00020000" android:required="true" /> -->
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+
+  <!--   <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="34"/>  -->
+
+  <supports-screens android:resizeable="true" android:largeScreens="true"/>
+
+
+  <!-- application -->
+  <application android:name="com.pultec.tobyfoxundertale.RunnerApplication" android:isGame="true" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" tools:replace="android:label">
+    <activity android:name=".PirateCheck" android:theme="@style/MainTheme"
+        android:exported="true" android:launchMode="singleTask" android:configChanges="orientation">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:exported="false" android:name=".RunnerActivity"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:label="@string/app_name"
+        android:launchMode="singleTop" android:alwaysRetainTaskState="true"   android:screenOrientation="landscape" android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|smallestScreenSize|uiMode|density|fontScale|layoutDirection|locale|mcc|mnc|navigation|touchscreen" tools:replace="android:label">
+    </activity>
+    <activity android:name="com.pultec.tobyfoxundertale.RunnerPreferenceActivity" android:label="@string/menu_settings">
+    </activity>
+    <!-- services -->
+    <activity android:name="com.pultec.tobyfoxundertale.inputTextClass" android:theme="@style/Theme.Material3DialogEditText"/>
+
+    <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/gps_app_id"/>
+    <meta-data android:name="com.google.android.gms.appstate.APP_ID"  android:value="@string/gps_app_id"/>
+    <!-- activities here -->
+
+    <!-- receivers here -->
+
+    <!-- This is XPeria Play specific, we have decided to make this standard though for all applications, just in case -->
+    <meta-data android:name="xperiaplayoptimized_content" android:resource="@string/xperiaplayoptimized_content" />
+    <meta-data android:name="game_display_name" android:resource="@string/app_name" />
+    <!--    <meta-data android:name="game_icon" android:resource="@drawable/icon" />
+    Removing due to following warning:
+    Resources referenced from the manifest cannot vary by configuration (except for version qualifiers, e.g. '-v21'.) Found variation in hdpi, ldpi, mdpi, xhdpi, xxhdpi, xxxhdpi
+    -->
+    <!-- meta-data here -->
+    <meta-data android:value="Yes" android:name="YYDynamicAssetDelivery" />
+    <meta-data android:value="true" android:name="YYiCadeSupport" />
+    <meta-data android:value="False" android:name="UseShaders" />
+    <meta-data android:value="0" android:name="YYUse24Bit" />
+    <meta-data android:value="-1" android:name="OrientLandscape" />
+    <meta-data android:value="0" android:name="OrientPortrait" />
+    <meta-data android:value="-1" android:name="OrientLandscapeFlipped" />
+    <meta-data android:value="0" android:name="OrientPortraitFlipped" />
+    <meta-data android:value="0" android:name="SplashscreenTime" />
+    <meta-data android:value="4" android:name="SleepTimer" />
+    <meta-data android:value="0" android:name="SplashscreenFill" />
+    <meta-data android:value="255" android:name="YYLaunchScreenBackgroundColour" />
+    <meta-data android:value="Yes" android:name="IsBuiltAsYoYoRunner" />
+    <meta-data android:name="YYExtensionClass0" android:value="inputTextClass"/>
+    <meta-data android:name="YYExtensionClass1" android:value="OSUtils"/>
+    <meta-data android:name="YYExtensionClass2" android:value="ExternalFile"/>
+    <meta-data android:name="SAF_REQUEST_SEARCH" android:value="31"/>
+    <meta-data android:name="SAF_REQUEST_LOAD" android:value="32"/>
+    <meta-data android:name="IS_FILE" android:value="0"/>
+    <meta-data android:name="IS_SAF" android:value="1"/>
+    <meta-data android:name="YYExtensionClass3" android:value="YYGooglePlayServices"/>
+    <meta-data android:name="Achievement_STATE_HIDDEN" android:value="2"/>
+    <meta-data android:name="Achievement_STATE_REVEALED" android:value="1"/>
+    <meta-data android:name="Achievement_STATE_UNLOCKED" android:value="0"/>
+    <meta-data android:name="Achievement_TYPE_INCREMENTAL" android:value="1"/>
+    <meta-data android:name="Achievement_TYPE_STANDARD" android:value="0"/>
+    <meta-data android:name="Leaderboard_TIME_SPAN_DAILY" android:value="0"/>
+    <meta-data android:name="Leaderboard_TIME_SPAN_WEEKLY" android:value="1"/>
+    <meta-data android:name="Leaderboard_TIME_SPAN_ALL_TIME" android:value="2"/>
+    <meta-data android:name="Leaderboard_COLLECTION_PUBLIC" android:value="0"/>
+    <meta-data android:name="Leaderboard_COLLECTION_SOCIAL" android:value="1"/>
+    <meta-data android:name="YYExtensionClass4" android:value="InAppUpdatesGMWrapper"/>
+    <meta-data android:name="InAppUpdates_ASYNC_RESPONSE_UPDATE_INFO" android:value="621870"/>
+    <meta-data android:name="InAppUpdates_UPDATE_AVAILABILITY_NOT_AVAILABLE" android:value="1"/>
+    <meta-data android:name="InAppUpdates_UPDATE_AVAILABILITY_AVAILABLE" android:value="2"/>
+    <meta-data android:name="InAppUpdates_UPDATE_AVAILABILITY_DEVELOPER_TRIGGERED_UPDATE_IN_PROGRESS" android:value="3"/>
+    <meta-data android:name="YYExtensionClass5" android:value="UnityAdsGM"/>
+    <meta-data android:name="UnityAds_State_SKIPPED" android:value="0"/>
+    <meta-data android:name="UnityAds_State_COMPLETE" android:value="1"/>
+    <meta-data android:name="UnityAds_State_UNKNOWN" android:value="2"/>
+    <meta-data android:name="UnityAds_Error_NOT_INITIALIZED" android:value="0"/>
+    <meta-data android:name="UnityAds_Error_NOT_READY" android:value="1"/>
+    <meta-data android:name="UnityAds_Error_VIDEO_PLAYER_ERROR" android:value="2"/>
+    <meta-data android:name="UnityAds_Error_INVALID_ARGUMENT" android:value="3"/>
+    <meta-data android:name="UnityAds_Error_NO_CONNECTION" android:value="4"/>
+    <meta-data android:name="UnityAds_Error_ALREADY_SHOWING" android:value="5"/>
+    <meta-data android:name="UnityAds_Error_INTERNAL_ERROR" android:value="6"/>
+    <meta-data android:name="UnityAds_Error_UNKNOWN" android:value="7"/>
+    <meta-data android:name="YYNumExtensionClasses" android:value="5"/>
+  </application>
+</manifest>
+
+
+
+
+
+
+
+

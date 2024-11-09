@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/com.pultec.tobyfoxundertale/build/
+/com.pultec.tobyfoxundertale/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/

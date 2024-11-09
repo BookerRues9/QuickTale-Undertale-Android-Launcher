@@ -1,0 +1,16 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google() // Aquí es donde debes agregar el repositorio de Google para las herramientas de compilación
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.5.1' // Versión actualizada de Gradle
+    }
+}
+
+allprojects {
+    repositories {
+    }
+}

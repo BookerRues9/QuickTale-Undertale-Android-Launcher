@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Danit\\OneDrive\\Documentos\\Undertale xbox runner android\\bookerlib\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Danit\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Danit\\OneDrive\\Documentos\\Undertale xbox runner android\\bookerlib\\.cxx\\Debug\\n6o42422\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Danit\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Danit\\OneDrive\\Documentos\\Undertale xbox runner android\\bookerlib\\.cxx\\Debug\\n6o42422\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bookerlib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "bookerlib",
+      "output": "C:\\Users\\Danit\\OneDrive\\Documentos\\Undertale xbox runner android\\bookerlib\\build\\intermediates\\cxx\\Debug\\n6o42422\\obj\\x86\\libbookerlib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\Danit\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\Danit\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

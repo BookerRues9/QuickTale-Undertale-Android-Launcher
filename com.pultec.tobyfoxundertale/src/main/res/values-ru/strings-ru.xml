@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="dialog_message">Файлы Undertale не найдены\nпожалуйста, выберите папку, где находятся файлы игры</string>
+    <string name="dialog_button">Выбрать папку</string>
+    <string name="tv_ut">data.win отсутствует в папке файлов undertale</string>
+    <string name="ok">done</string>
+    <string name="patching_data_win">исправление data.win</string>
+    <string name="patching_rooms">ремонтные комнаты</string>
+    <string name="patching_code">код исправления</string>
+    <string name="patching_songs">исправление звуков</string>
+    <string name="load_files">загрузка файлов игры</string>
+    <string name="dialog_buy">купить игру</string>
+    <string name="dialog_install">Как установить</string>
+    <string name="join_discord">Присоединяйтесь к нашему сообществу Discord для получения новостей и обновлений, а также поддержки от разработчиков.</string>
+    <string name="join">входить</string>
+    <string name="cancel_discord">Отмена</string>
+    <string name="donacion_tittle">Поддержите нас пожертвованием!</string>
+    <string name="donacion_content">Нажмите здесь, чтобы сделать пожертвование через PayPal.</string>
+    <string name="gml_team">Присоединяйтесь к нашему серверу Discord</string>
+    <string name="gml_team_but">Присоединяйтесь к нашему серверу Discord, чтобы получать обновления, поддержку от участников сервера или сотрудничать с людьми</string>
+    <string name="load_cache_files">архивы в кэше</string>
+    <string name="rights_dialog_title">Авторское право и контакт</string>
+    <string name="rights_dialog_message">
+        <![CDATA[
+        Undertale является собственностью Тоби Фокса. Все права на Undertale принадлежат Тоби Фоксу.\n\n
+        Это приложение создано без коммерческой выгоды, и МЫ НЕ ПОДДЕРЖИВАЕМ ПИРАТСТВО.\n\n
+        Это приложение не распространяет игру Undertale; оно только запускает оптимизированные для Android файлы Undertale.\n\n
+        Если вам нужна дополнительная информация, пожалуйста, отправьте электронное письмо на адрес: pultecsoftware@gmail.com.\n\n
+        Если вы Тоби Фокс, пожалуйста, свяжитесь с нами для получения дополнительной информации и обсуждения будущих портов.\n\n
+        Нажимая Принять, вы соглашаетесь со всем вышеупомянутым.\n\n
+        С уважением,\nBooker
+        ]]>
+    </string>
+    <string name="rights_dialog_accept">Принять</string>
+    <string name="rights_dialog_contact">Связаться</string>
+    <string name="game_nopath">Не выбран путь</string>
+    <string name="game_resources">Путь к ресурсам игры:</string>
+    <string name="game_install">Как установить</string>
+    <string name="game_buy">Купить (Steam)</string>
+    <string name="game_discord">Discord</string>
+    <string name="game_faq">О программе</string>
+    <string name="game_faq_content">
+        Это приложение позволяет пользователям патчить и запускать "Undertale" из Steam на своих устройствах Android.\n
+        Для его использования необходимо иметь оригинальную копию игры, установленную на телефоне.\n
+        Приложение было разработано с целью облегчить портирование "Undertale", сохраняя аутентичный опыт, адаптированный для мобильных устройств.\n
+        Мы надеемся, что вы насладитесь игрой на своем телефоне!\n
+        Кредиты:\n- Undertale Тоби Фокс\n- UndertaleModTool от Grossley\n- Базовые элементы управления от Jockeholm AngelaPuzzle и Matiw (в их проекте переработанных элементов управления)\n- GameMaker Studio от YoYo Games (движок разработки)\n- Android Studio от Google (платформа для разработки приложений Android)\n- Booker (разработчик Undertale QuickRun)\nЭтот проект был реализован с заботой, чтобы предложить мобильный опыт, близкий к оригиналу.
+    </string>
+    <string name="game_folder">Выбрать папку</string>
+    <string name="game_start">Начать</string>
+    <string name="game_deltarune">Попробуйте также Deltarune</string>
+    <!-- Diálogo inicial -->
+    <string name="game_select1">Что вы хотите сделать?</string>
+    <string name="game_patch1">Пропатчить игру</string>
+    <string name="game_load1">Загрузить игру (Можно загрузить только data.win, пропатченный приложением. Для использования модов необходимо изменить data.win, пропатченный приложением)</string>
+
+    <!-- Diálogo de selección de idioma -->
+    <string name="game_select_language">Выберите язык игры для патча</string>
+    <string name="game_language_english">Английский (Основной)</string>
+    <string name="game_language_spanish">Испанский (Дополнительный)</string>
+</resources>

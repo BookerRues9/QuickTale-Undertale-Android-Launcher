@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="dialog_message">Fehler Dateien von Undertale nicht gefunden\nbitte wählen Sie einen Ordner aus, in dem sich die Spieldateien befinden</string>
+    <string name="dialog_button">Ordner auswählen</string>
+    <string name="tv_ut">data.win fehlt im Undertale-Dateienordner</string>
+    <string name="ok">done</string>
+    <string name="patching_data_win">Patchen von data.win</string>
+    <string name="patching_rooms">Ausbesserungsräume</string>
+    <string name="patching_code">Patchcode</string>
+    <string name="patching_songs">Lieder patchen</string>
+    <string name="load_files">Laden von Spieldateien</string>
+    <string name="dialog_buy">Spiel kaufen</string>
+    <string name="dialog_install">wie installiert man</string>
+    <string name="join_discord">Treten Sie unserer Discord-Community bei, um Neuigkeiten, Updates und Entwicklerunterstützung zu erhalten.</string>
+    <string name="join">eingeben</string>
+    <string name="cancel_discord">Stornieren</string>
+    <string name="donacion_tittle">Unterstützen Sie uns mit einer Spende!</string>
+    <string name="donacion_content">Klicken Sie hier, um eine PayPal-Spende zu tätigen.</string>
+    <string name="gml_team">Treten Sie unserem Discord-Server bei</string>
+    <string name="gml_team_but">Treten Sie unserem Discord-Server bei, um Updates und Unterstützung von Servermitgliedern zu erhalten oder mit anderen zusammenzuarbeiten</string>
+    <string name="load_cache_files">Archive im Cache laden</string>
+    <string name="rights_dialog_title">Urheberrecht und Kontakt</string>
+    <string name="rights_dialog_message">
+        <![CDATA[
+        Undertale ist ein Eigentum von Toby Fox. Alle Rechte an Undertale gehören Toby Fox.\n\n
+        Diese App wurde ohne Gewinnabsicht erstellt, und WIR UNTERSTÜTZEN KEINE PIRATERIE.\n\n
+        Diese App verteilt das Spiel Undertale nicht; sie führt nur optimierte Undertale-Dateien für Android aus.\n\n
+        Wenn Sie weitere Informationen benötigen, senden Sie bitte eine E-Mail an: pultecsoftware@gmail.com.\n\n
+        Wenn Sie Toby Fox sind, kontaktieren Sie uns bitte für weitere Informationen und um zukünftige Ports zu besprechen.\n\n
+        Durch Drücken von Akzeptieren stimmen Sie dem oben Gesagten zu.\n\n
+        Mit freundlichen Grüßen,\nBooker
+        ]]>
+    </string>
+    <string name="rights_dialog_accept">Akzeptieren</string>
+    <string name="rights_dialog_contact">Kontakt</string>
+    <string name="game_nopath">Kein Pfad ausgewählt</string>
+    <string name="game_resources">Spielressourcenpfad:</string>
+    <string name="game_install">So installieren Sie</string>
+    <string name="game_buy">Kaufen (Steam)</string>
+    <string name="game_discord">Discord</string>
+    <string name="game_faq">Über die App</string>
+    <string name="game_faq_content">
+        Diese Anwendung ermöglicht es Benutzern, "Undertale" von Steam auf ihrem Android-Gerät zu patchen und auszuführen.\n
+        Um sie zu verwenden, ist eine originale Kopie des Spiels erforderlich, die auf dem Telefon installiert ist.\n
+        Die Anwendung wurde entwickelt, um die Portabilität von "Undertale" zu erleichtern und dabei eine authentische und für mobile Geräte angepasste Erfahrung zu bieten.\n
+        Wir hoffen, dass Sie das Spiel auf Ihrem Telefon genießen!\n
+        Credits:\n- Undertale von Toby Fox\n- UndertaleModTool von Grossley\n- Basissteuerungen von Jockeholm AngelaPuzzle und Matiw (in ihrem überarbeiteten Steuerungsprojekt)\n- GameMaker Studio von YoYo Games (Entwicklungsengine)\n- Android Studio von Google (Plattform zur Entwicklung von Android-Anwendungen)\n- Booker (Entwickler von Undertale QuickRun)\nDieses Projekt wurde mit Hingabe erstellt, um ein mobiles Erlebnis zu bieten, das dem Original nahekommt.\n
+    </string>
+    <string name="game_folder">Ordner auswählen</string>
+    <string name="game_start">Starten</string>
+    <string name="game_deltarune">Versuchen Sie auch Deltarune</string>
+    <!-- Diálogo inicial -->
+    <string name="game_select1">Was möchten Sie tun?</string>
+    <string name="game_patch1">Spiel patchen</string>
+    <string name="game_load1">Spiel laden (Nur das von der App gepatchte data.win kann geladen werden. Für Mods müssen Sie das gepatchte data.win bearbeiten)</string>
+
+    <!-- Diálogo de selección de idioma -->
+    <string name="game_select_language">Wählen Sie die Sprache des Spiels zum Patchen</string>
+    <string name="game_language_english">Englisch (Haupt)</string>
+    <string name="game_language_spanish">Spanisch (Neben)</string>
+</resources>

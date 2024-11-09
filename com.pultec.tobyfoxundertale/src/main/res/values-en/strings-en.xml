@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="dialog_message">Error Undertale files not found\nplease select a folder where the game files are located</string>
+    <string name="dialog_button">Select folder</string>
+    <string name="tv_ut">data.win missing in the undertale files folder</string>
+    <string name="ok">done</string>
+    <string name="patching_data_win">patching data.win</string>
+    <string name="patching_rooms">patching rooms</string>
+    <string name="patching_code">patching code</string>
+    <string name="patching_songs">patching sounds</string>
+    <string name="load_files">loading game files</string>
+    <string name="dialog_buy">buy game</string>
+    <string name="dialog_install">how to install</string>
+    <string name="join_discord">Join our discord community for news and updates and support from the developers</string>
+    <string name="join">Join</string>
+    <string name="cancel_discord">Cancel</string>
+    <string name="donacion_tittle">Support us with a donation!</string>
+    <string name="donacion_content">Click here to make a PayPal donation.</string>
+    <string name="gml_team">Join our discord server</string>
+    <string name="gml_team_but">Join our discord server to receive updates, support from server members, or collaborate with people</string>
+    <string name="load_cache_files">loading files in cache</string>
+    <string name="rights_dialog_title">Copyright and Contact</string>
+    <string name="rights_dialog_message">
+        <![CDATA[
+        Undertale is a property of Toby Fox. All rights to Undertale belong to Toby Fox.\n\n
+        This app is made without any profit intent, and WE DO NOT SUPPORT PIRACY.\n\n
+        This app does not distribute the Undertale game; it only runs Undertale files optimized for Android.\n\n
+        If you need more information, please send an email to: pultecsoftware@gmail.com.\n\n
+        If you are Toby Fox, please contact us for more information and to discuss future ports.\n\n
+        original port by jockeholm mobile controls by Angelapuzzle reworked by booker/Y2K.\n\n
+        app icon by MrOwO07.\n\n
+        By pressing Accept, you agree to all the above.\n\n
+        Sincerely,\nBooker
+        ]]>
+    </string>
+    <string name="rights_dialog_accept">Accept</string>
+    <string name="rights_dialog_contact">Contact</string>
+    <string name="game_nopath">No Path Selected</string>
+    <string name="game_resources">Game Resources Path:</string>
+    <string name="game_install">How To Install</string>
+    <string name="game_buy">Buy (Steam)</string>
+    <string name="game_discord">Discord</string>
+    <string name="game_faq">About</string>
+    <string name="game_faq_content">
+        This application allows users to patch and run "Undertale" from Steam on their Android device.\n
+        To use it, a copy of the original game must be installed on the phone.\n
+        The application was developed to facilitate the portability of "Undertale", maintaining an authentic experience adapted for mobile devices.\n
+        We hope you enjoy playing the game on your phone!\n
+        Credits:\n- Undertale By TobyFox\n- UndertaleModTool by Grossley\n- Base Controls by Jockeholm and AngelaPuzzle and Matiw (in their revamped controls project)\n- GameMaker Studio by YoYo Games (development engine)\n- Android Studio by Google (Android app development platform)\n- Booker (Undertale QuickRun Android)\nThis project was carried out with dedication to offer a mobile experience close to the original.\n
+    </string>
+    <string name="game_folder">Select Folder</string>
+    <string name="game_start">Start</string>
+    <string name="game_deltarune">Also Try Deltarune</string>
+    <string name="game_select1">What do you want to do?</string>
+    <string name="game_patch1">Patch the game</string>
+    <string name="game_load1">Load game (Only the data.win patched by the app can be loaded. To use mods, modify the app-patched data.win)</string>
+
+    <!-- Diálogo de selección de idioma -->
+    <string name="game_select_language">Select the game language to patch</string>
+    <string name="game_language_english">English (Main)</string>
+    <string name="game_language_spanish">Spanish (Submain)</string>
+</resources>

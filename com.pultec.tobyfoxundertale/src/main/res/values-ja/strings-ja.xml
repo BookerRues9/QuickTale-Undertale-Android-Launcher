@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="dialog_message">アンダーテールのファイルが見つかりませんでした\nゲームファイルがあるフォルダを選択してください</string>
+    <string name="dialog_button">フォルダーを選択</string>
+    <string name="tv_ut">undertaleファイルフォルダにdata.winがありません</string>
+    <string name="ok">done</string>
+    <string name="patching_data_win">data.winにパッチを適用する</string>
+    <string name="patching_rooms">部屋の補修</string>
+    <string name="patching_code">パッチコード</string>
+    <string name="patching_songs">サウンドのパッチング</string>
+    <string name="load_files">ゲームファイルの読み込み</string>
+    <string name="dialog_buy">ゲームを購入する</string>
+    <string name="dialog_install">インストールする方法</string>
+    <string name="join_discord">Discord コミュニティに参加して、ニュース、更新情報、開発者サポートを受け取りましょう。</string>
+    <string name="join">入力</string>
+    <string name="cancel_discord">キャンセル</string>
+    <string name="donacion_tittle">寄付で私たちをサポートしてください！</string>
+    <string name="donacion_content">PayPalで寄付するにはここをクリックしてください。</string>
+    <string name="gml_team">Discordサーバーに参加してください</string>
+    <string name="gml_team_but">Discordサーバーに参加して、最新情報やサーバーメンバーからのサポートを受け取ったり、他の人とコラボレーションしたりしましょう。</string>
+    <string name="load_cache_files">キャッシュ内のカルガンド アーカイブ</string>
+    <string name="rights_dialog_title">著作権と連絡先</string>
+    <string name="rights_dialog_message">
+        <![CDATA[
+        UndertaleはToby Foxの所有物です。Undertaleのすべての権利はToby Foxに帰属します。\n\n
+        このアプリは営利目的ではなく作成されており、海賊版を一切サポートしません。\n\n
+        このアプリはUndertaleのゲームを配布しません。Android用に最適化されたUndertaleファイルのみを実行します。\n\n
+        追加情報が必要な場合は、次のメールアドレスにメールを送信してください：pultecsoftware@gmail.com。\n\n
+        あなたがToby Foxである場合、詳細および今後のポートについて話し合うためにご連絡ください。\n\n
+        「承諾」を押すことで、上記のすべてに同意したことになります。\n\n
+        敬具,\nBooker
+        ]]>
+    </string>
+    <string name="rights_dialog_accept">承諾する</string>
+    <string name="rights_dialog_contact">連絡先</string>
+    <string name="game_nopath">パスが選択されていません</string>
+    <string name="game_resources">ゲームリソースのパス:</string>
+    <string name="game_install">インストール方法</string>
+    <string name="game_buy">購入 (Steam)</string>
+    <string name="game_discord">Discord</string>
+    <string name="game_faq">アプリについて</string>
+    <string name="game_faq_content">
+        このアプリは、ユーザーがAndroidデバイス上でSteamの"Undertale"をパッチを当てて実行できるようにします。\n
+        使用するには、電話にインストールされたオリジナルのゲームコピーが必要です。\n
+        このアプリは、"Undertale"のポータビリティを簡単にするために開発され、モバイルデバイスに適した本物の体験を維持しています。\n
+        電話でゲームを楽しんでいただけることを願っています！\n
+        クレジット:\n- Undertale By Toby Fox\n- UndertaleModTool by Grossley\n- 基本コントロール by Jockeholm AngelaPuzzleとMatiw（再設計されたコントロールのプロジェクト）\n- YoYo GamesのGameMaker Studio（開発エンジン）\n- GoogleのAndroid Studio（Androidアプリ開発プラットフォーム）\n- Booker（Undertale QuickRunの開発者）\nこのプロジェクトは、オリジナルに近いモバイル体験を提供するために献身的に行われました。\n
+    </string>
+    <string name="game_folder">フォルダーを選択</string>
+    <string name="game_start">開始</string>
+    <string name="game_deltarune">Deltaruneも試してみてください</string>
+    <!-- Diálogo inicial -->
+    <string name="game_select1">何をしたいですか？</string>
+    <string name="game_patch1">ゲームをパッチする</string>
+    <string name="game_load1">ゲームを読み込む（アプリでパッチされたdata.winのみ読み込めます。Modを使用するには、アプリでパッチされたdata.winを変更する必要があります）</string>
+
+    <!-- Diálogo de selección de idioma -->
+    <string name="game_select_language">パッチするゲームの言語を選択</string>
+    <string name="game_language_english">英語（メイン）</string>
+    <string name="game_language_spanish">スペイン語（サブ）</string>
+</resources>

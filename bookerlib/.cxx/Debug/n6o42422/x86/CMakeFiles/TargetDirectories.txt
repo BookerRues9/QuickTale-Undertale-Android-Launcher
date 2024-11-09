@@ -1,0 +1,3 @@
+C:/Users/Danit/OneDrive/Documentos/Undertale xbox runner android/bookerlib/.cxx/Debug/n6o42422/x86/CMakeFiles/bookerlib.dir
+C:/Users/Danit/OneDrive/Documentos/Undertale xbox runner android/bookerlib/.cxx/Debug/n6o42422/x86/CMakeFiles/edit_cache.dir
+C:/Users/Danit/OneDrive/Documentos/Undertale xbox runner android/bookerlib/.cxx/Debug/n6o42422/x86/CMakeFiles/rebuild_cache.dir
