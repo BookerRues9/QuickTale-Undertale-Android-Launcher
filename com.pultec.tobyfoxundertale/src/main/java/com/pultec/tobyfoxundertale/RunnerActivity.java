@@ -1534,7 +1534,7 @@ public class RunnerActivity extends FragmentActivity implements SensorEventListe
 		try {
 			yoyoRunner = false;
 			// debo quitar esto en caso de que modifiquen la app no pueda cargar game.droid custom
-			InputStream is = getResources().getAssets().open( "game.droid" );
+			finish();
 			if (is != null) {
 				yoyoRunner = false;
 				Log.i( "yoyo", "#######!!!!!!! Checking for runner - found assets " );
