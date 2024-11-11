@@ -1531,7 +1531,7 @@ public class RunnerActivity extends FragmentActivity implements SensorEventListe
     private boolean checkIsYoYoRunner() {
     
     	boolean yoyoRunner = false;
-		try {
+		/*try {
 			yoyoRunner = false;
 			// debo quitar esto en caso de que modifiquen la app no pueda cargar game.droid custom
 			finish();
@@ -1548,7 +1548,7 @@ public class RunnerActivity extends FragmentActivity implements SensorEventListe
 		catch( Exception e ) {
 			yoyoRunner = false;
 			Log.i( "yoyo", "#######!!!!!!! Checking for runner! failed");
-		} // end catch
+		}  */ // end catch
 		
 		//Log.i("yoyo", "File Path for INI:: " + _apkFilename );
 
