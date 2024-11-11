@@ -26,15 +26,12 @@
 
   <!-- application -->
   <application android:name="com.pultec.tobyfoxundertale.RunnerApplication" android:isGame="true" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" tools:replace="android:label">
-    <activity android:name=".PirateCheck" android:theme="@style/MainTheme"
-        android:exported="true" android:launchMode="singleTask" android:configChanges="orientation">
-      <intent-filter>
+    <activity android:exported="false" android:name=".RunnerActivity"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:label="@string/app_name"
+        android:launchMode="singleTop" android:alwaysRetainTaskState="true"   android:screenOrientation="landscape" android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|smallestScreenSize|uiMode|density|fontScale|layoutDirection|locale|mcc|mnc|navigation|touchscreen" tools:replace="android:label">
+    <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
-    </activity>
-    <activity android:exported="false" android:name=".RunnerActivity"  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:label="@string/app_name"
-        android:launchMode="singleTop" android:alwaysRetainTaskState="true"   android:screenOrientation="landscape" android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|smallestScreenSize|uiMode|density|fontScale|layoutDirection|locale|mcc|mnc|navigation|touchscreen" tools:replace="android:label">
     </activity>
     <activity android:name="com.pultec.tobyfoxundertale.RunnerPreferenceActivity" android:label="@string/menu_settings">
     </activity>
@@ -91,19 +88,7 @@
     <meta-data android:name="InAppUpdates_UPDATE_AVAILABILITY_NOT_AVAILABLE" android:value="1"/>
     <meta-data android:name="InAppUpdates_UPDATE_AVAILABILITY_AVAILABLE" android:value="2"/>
     <meta-data android:name="InAppUpdates_UPDATE_AVAILABILITY_DEVELOPER_TRIGGERED_UPDATE_IN_PROGRESS" android:value="3"/>
-    <meta-data android:name="YYExtensionClass5" android:value="UnityAdsGM"/>
-    <meta-data android:name="UnityAds_State_SKIPPED" android:value="0"/>
-    <meta-data android:name="UnityAds_State_COMPLETE" android:value="1"/>
-    <meta-data android:name="UnityAds_State_UNKNOWN" android:value="2"/>
-    <meta-data android:name="UnityAds_Error_NOT_INITIALIZED" android:value="0"/>
-    <meta-data android:name="UnityAds_Error_NOT_READY" android:value="1"/>
-    <meta-data android:name="UnityAds_Error_VIDEO_PLAYER_ERROR" android:value="2"/>
-    <meta-data android:name="UnityAds_Error_INVALID_ARGUMENT" android:value="3"/>
-    <meta-data android:name="UnityAds_Error_NO_CONNECTION" android:value="4"/>
-    <meta-data android:name="UnityAds_Error_ALREADY_SHOWING" android:value="5"/>
-    <meta-data android:name="UnityAds_Error_INTERNAL_ERROR" android:value="6"/>
-    <meta-data android:name="UnityAds_Error_UNKNOWN" android:value="7"/>
-    <meta-data android:name="YYNumExtensionClasses" android:value="5"/>
+    <meta-data android:name="YYNumExtensionClasses" android:value="4"/>
   </application>
 </manifest>
 
