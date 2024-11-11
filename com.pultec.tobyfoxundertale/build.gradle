@@ -49,7 +49,7 @@ dependencies {
 android {
     signingConfigs {
         release {
-            storeFile file("C:/Users/Danit/OneDrive/Documentos/proyectos android/Undertale Android/undertale.jks")
+            storeFile file("mk")
             storePassword "Your pasword"
             keyAlias "your alias uwu"
             keyPassword "password"
