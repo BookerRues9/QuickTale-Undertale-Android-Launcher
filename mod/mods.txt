@@ -1,3 +1,13 @@
 v1.08_Windows_Collectors_Edition_to_Steam , https://raw.githubusercontent.com/BookerRues9/QuickTale-Undertale-Android-Launcher/refs/heads/master/mod/mobile/v1.08_Windows_Collectors_Edition_to_Steam.xdelta
-Mod 2 , https://github.io.user/spanishmod.xdelta
-Mod 3 , https://ejemplo.com/otro_mod.delta
+Controles tactiles mas español , https://github.io.user/spanishmod.xdelta
+Controles tactiles, https://ejemplo.com/otro_mod.delta
+Controles tactiles portuges, https://ejemplo.com/otro_mod.delta
+niko mod, https://ejemplo.com/otro_mod.delta
+dead mod, https://ejemplo.com/otro_mod.delta
+italian language, https://ejemplo.com/otro_mod.delta
+Controles tactiles, https://ejemplo.com/otro_mod.delta
+Controles tactiles, https://ejemplo.com/otro_mod.delta
+Controles tactiles, https://ejemplo.com/otro_mod.delta
+Controles tactiles, https://ejemplo.com/otro_mod.delta
+Controles tactiles, https://ejemplo.com/otro_mod.delta
+Controles tactiles, https://ejemplo.com/otro_mod.delta
