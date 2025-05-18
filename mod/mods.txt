@@ -1,0 +1,3 @@
+Parche español 1 , https://github.io.user/mobilemod.delta
+Mod 2 , https://github.io.user/spanishmod.xdelta
+Mod 3 , https://ejemplo.com/otro_mod.delta
