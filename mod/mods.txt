@@ -1,13 +1,15 @@
 v1.08_Windows_Collectors_Edition_to_Steam , https://raw.githubusercontent.com/BookerRues9/QuickTale-Undertale-Android-Launcher/refs/heads/master/mod/mobile/v1.08_Windows_Collectors_Edition_to_Steam.xdelta
-Controles tactiles mas español , https://github.io.user/spanishmod.xdelta
-Controles tactiles, https://ejemplo.com/otro_mod.delta
+Touch Controls Only , https://ejemplo.com/otro_mod.delta
+Idioma Español , https://github.io.user/spanishmod.xdelta
+Language Português, https://ejemplo.com/otro_mod.delta
 Controles tactiles portuges, https://ejemplo.com/otro_mod.delta
-niko mod, https://ejemplo.com/otro_mod.delta
-dead mod, https://ejemplo.com/otro_mod.delta
-italian language, https://ejemplo.com/otro_mod.delta
-Controles tactiles, https://ejemplo.com/otro_mod.delta
-Controles tactiles, https://ejemplo.com/otro_mod.delta
-Controles tactiles, https://ejemplo.com/otro_mod.delta
-Controles tactiles, https://ejemplo.com/otro_mod.delta
-Controles tactiles, https://ejemplo.com/otro_mod.delta
-Controles tactiles, https://ejemplo.com/otro_mod.delta
+User mod pack 1, https://ejemplo.com/otro_mod.delta
+User mod pack 2, https://ejemplo.com/otro_mod.delta
+User mod pack 3, https://ejemplo.com/otro_mod.delta
+User mod pack 4, https://ejemplo.com/otro_mod.delta
+User mod pack 5, https://ejemplo.com/otro_mod.delta
+User mod pack 6, https://ejemplo.com/otro_mod.delta
+User mod pack 7, https://ejemplo.com/otro_mod.delta
+User mod pack 8, https://ejemplo.com/otro_mod.delta
+User mod pack 9, https://ejemplo.com/otro_mod.delta
+User mod pack 10, https://ejemplo.com/otro_mod.delta
