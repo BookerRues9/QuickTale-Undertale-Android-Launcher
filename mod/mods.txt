@@ -1,2 +1,10 @@
-v1.08_Windows_Collectors_Edition_to_Steam ,https://raw.githubusercontent.com/BookerRues9/QuickTale-Undertale-Android-Launcher/refs/heads/master/mod/mobile/v1.08_Windows_Collectors_Edition_to_Steam.xdelta
-Undertale English with touch controls,https://drive.google.com/uc?export=download&id=1FKVjFcsDhvg6px-TPlhiF-8JlgNtnfdI
+[
+  {
+    "name": "v1.08_Windows_Collectors_Edition_to_Steam",
+    "url": "https://raw.githubusercontent.com/BookerRues9/QuickTale-Undertale-Android-Launcher/refs/heads/master/mod/mobile/v1.08_Windows_Collectors_Edition_to_Steam.xdelta"
+  },
+  {
+    "name": "Undertale English with touch controls",
+    "url": "https://drive.google.com/uc?export=download&id=1FKVjFcsDhvg6px-TPlhiF-8JlgNtnfdI"
+  }
+]
